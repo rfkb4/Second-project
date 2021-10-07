@@ -1,0 +1,27 @@
+//VERIABLES
+$red: #ff3434;
+$red_transparent: rgba(255, 67, 67, 0.8);
+$blue: #353c65;
+$blue_dark: #2c3154;
+$white: #ffffff;
+$grey: #656980;
+$grey_light: #babbc5;
+$raleway: Raleway, sans-serif;
+
+//SECTIONS
+@import 'header';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  list-style-type: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  z-index: 5;
+  position: relative;
+}
