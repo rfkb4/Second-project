@@ -1,16 +1,17 @@
 .header {
   position: relative;
   padding-bottom: 120px;
-  &::before {
-    content: url(../../img/header_background.png);
-    position: absolute;
-    top: 0px;
-    left: -150px;
-  }
+  background-image: url(../../img/header_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   &::after {
     content: url(../../img/header_mask.png);
     position: absolute;
     top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
     z-index: 1;
     opacity: 0.8;
   }
