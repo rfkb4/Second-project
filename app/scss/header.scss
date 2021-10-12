@@ -1,17 +1,18 @@
 .header {
   position: relative;
   padding-bottom: 120px;
-  background-image: url(../../img/header_background.png);
+  background-image: url(../img/header_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
+  overflow: hidden;
   &::after {
-    content: url(../../img/header_mask.png);
+    content: url(../img/header_mask.png);
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
+    width: auto;
     z-index: 1;
     opacity: 0.8;
   }
@@ -22,7 +23,7 @@
   align-items: center;
   margin: 0 -15px;
   position: relative;
-  margin-bottom: 166px;
+  margin-bottom: 120px;
   padding: 36px 0 32px;
   &::after {
     content: '';

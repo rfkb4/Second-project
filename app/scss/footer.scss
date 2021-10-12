@@ -1,0 +1,17 @@
+.footer {
+  padding: 24px 0;
+  background-color: rgba(44, 49, 84, 1);
+}
+.footer-content {
+  margin: auto;
+  text-align: center;
+  width: 370px;
+  .footer-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #808080;
+    .footer-text_white {
+      color: #ffffff;
+    }
+  }
+}

@@ -10,8 +10,11 @@ $grey_light: #babbc5;
 $raleway: Raleway, sans-serif;
 
 //SECTIONS
-@import 'header';
-@import 'features';
+@import 'header.scss';
+@import 'features.scss';
+@import 'works.scss';
+@import 'team.scss';
+@import 'footer.scss';
 
 * {
   box-sizing: border-box;
