@@ -7,7 +7,6 @@ $blue_dark: #2c3154;
 $white: #ffffff;
 $grey: #656980;
 $grey_light: #babbc5;
-$raleway: Raleway, sans-serif;
 
 //SECTIONS
 @import 'header.scss';
@@ -15,6 +14,7 @@ $raleway: Raleway, sans-serif;
 @import 'works.scss';
 @import 'team.scss';
 @import 'footer.scss';
+@import 'download.scss';
 
 * {
   box-sizing: border-box;
