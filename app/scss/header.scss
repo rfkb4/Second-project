@@ -68,10 +68,10 @@
             width: 134px;
             height: 28px;
             position: relative;
-            transition: 0.2s;
+            transition: all 0.3s ease;
             &::after {
               content: '';
-              transition: 0.3s;
+              transition: all 0.3s ease;
             }
             &:hover:after {
               content: '';
@@ -82,10 +82,11 @@
               position: absolute;
               top: 67px;
               left: 0;
+              transition: all 0.3s ease;
             }
             &:active {
               color: #ff3434;
-              transition: 0.2s;
+              transition: all 0.2s ease;
               &::after {
                 content: '';
                 display: block;

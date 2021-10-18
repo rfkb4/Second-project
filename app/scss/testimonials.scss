@@ -3,19 +3,23 @@
 }
 .slider__item {
   display: flex;
+  justify-content: flex-start;
   margin-bottom: 31px;
 }
 .slider__image {
   width: 50%;
-  background-image: url(../img/22a194351ef371c9fc2a9a9cbb38ac3c.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+.slider__img {
+  height: 490px;
 }
 
 .slider__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
   width: 50%;
   background-color: rgba(92, 50, 73, 1);
-  padding: 116px 129px;
   .slider__text {
     font-family: 'Cardo', sans-serif;
     color: #ffffff;

@@ -4,8 +4,9 @@
     width: 100vw;
     .works-wrap {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-columns: repeat(4, 25%);
+      grid-template-rows: repeat(2, 50%);
+      justify-content: space-between;
       gap: 3px;
       .hover {
         width: calc(works / 4);
@@ -32,6 +33,9 @@
         }
         &:hover::after {
           height: 100%;
+        }
+        &:active::after {
+          background: rgba(185, 47, 47, 0.8);
         }
         .works-wrap__title {
           text-transform: uppercase;

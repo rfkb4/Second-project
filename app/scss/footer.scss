@@ -9,8 +9,10 @@
   .footer-text {
     font-weight: 400;
     font-size: 18px;
+    text-transform: capitalize;
     color: #808080;
     .footer-text_white {
+      text-transform: capitalize;
       color: #ffffff;
     }
   }

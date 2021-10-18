@@ -1,5 +1,5 @@
 .prefooter {
-  padding: 70px 170px;
+  padding: 70px 0;
   background-color: rgba(53, 60, 101, 1);
 }
 .prefooter-wrap {
@@ -79,6 +79,7 @@
     .about__desc {
       font-weight: 400;
       font-size: 18px;
+      text-transform: capitalize;
       color: #ffffff;
     }
   }

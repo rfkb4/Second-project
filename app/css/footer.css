@@ -1,0 +1,20 @@
+.footer {
+  padding: 24px 0;
+  background-color: #2c3154;
+}
+
+.footer-content {
+  margin: auto;
+  text-align: center;
+  width: 370px;
+}
+.footer-content .footer-text {
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #808080;
+}
+.footer-content .footer-text .footer-text_white {
+  text-transform: capitalize;
+  color: #ffffff;
+}

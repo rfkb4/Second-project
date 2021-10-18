@@ -7,10 +7,13 @@
 .works .container_works .works-wrap {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 3px 1fr 3px 1fr 3px 1fr;
-  grid-template-columns: repeat(4, 1fr);
-  -ms-grid-rows: 1fr 3px 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: 25% 3px 25% 3px 25% 3px 25%;
+  grid-template-columns: repeat(4, 25%);
+  -ms-grid-rows: 50% 3px 50%;
+  grid-template-rows: repeat(2, 50%);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   gap: 3px;
 }
 .works .container_works .works-wrap > *:nth-child(1) {
@@ -82,6 +85,9 @@
 }
 .works .container_works .works-wrap .hover:hover::after {
   height: 100%;
+}
+.works .container_works .works-wrap .hover:active::after {
+  background: rgba(185, 47, 47, 0.8);
 }
 .works .container_works .works-wrap .hover .works-wrap__title {
   text-transform: uppercase;
