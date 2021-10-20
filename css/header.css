@@ -48,7 +48,7 @@
 .header-wrap .header-wrap__logo .header-wrap__logo-item {
   color: #656980;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .header-wrap .header-wrap__logo .header-wrap__logo-item::after {
@@ -164,8 +164,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 369px;
-  height: 77.58px;
+  width: 370px;
+  height: 80px;
   background-color: #ff3434;
   border: 0;
   font-weight: 900;
