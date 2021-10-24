@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  overflow: hidden;
 }
 .header::after {
   content: "";
@@ -48,7 +47,7 @@
 .header-wrap .header-wrap__logo .header-wrap__logo-item {
   color: #656980;
   font-weight: 900;
-  font-size: 2.5rem;
+  font-size: 40px;
   text-transform: uppercase;
 }
 .header-wrap .header-wrap__logo .header-wrap__logo-item::after {
@@ -67,9 +66,13 @@
       align-content: center;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item {
+  margin-right: 50px;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 0.8125rem;
   text-transform: uppercase;
+}
+.header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item:last-child {
+  margin-right: 0px;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link {
   text-decoration: none;
@@ -86,16 +89,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 134px;
-  height: 28px;
   position: relative;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link .header-wrap__link-name::after {
   content: "";
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  display: block;
+  width: 0%;
+  height: 3px;
+  background-color: #babbc5;
+  position: absolute;
+  top: 67px;
+  left: 0;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link .header-wrap__link-name:hover:after {
   content: "";
@@ -106,13 +114,11 @@
   position: absolute;
   top: 67px;
   left: 0;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link .header-wrap__link-name:active {
   color: #ff3434;
-  -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link .header-wrap__link-name:active::after {
   content: "";
@@ -143,16 +149,19 @@
 }
 .header-greetings .header__title {
   font-weight: 900;
-  font-size: 64px;
+  font-size: 4rem;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 32px;
 }
 .header-greetings .header__subtitle {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #ffffff;
   margin-bottom: 82px;
+}
+.header-greetings .header__button {
+  font-size: 1.5rem;
 }
 .header-greetings .header__button .header__btn {
   display: -webkit-box;
@@ -164,12 +173,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 370px;
   height: 80px;
+  width: 370px;
   background-color: #ff3434;
   border: 0;
   font-weight: 900;
-  font-size: 24px;
   text-transform: uppercase;
   color: #ffffff;
   -webkit-transition: 0.3s;

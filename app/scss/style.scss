@@ -20,6 +20,7 @@ $grey_light: #babbc5;
 
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 * {
   box-sizing: border-box;
@@ -34,4 +35,57 @@ html {
   margin: 0 auto;
   z-index: 5;
   position: relative;
+}
+
+@media (max-width: 1170px) {
+  .container {
+    width: 984px;
+  }
+  .header-wrap {
+    &::after {
+      width: 984px;
+    }
+  }
+  .features-wrap {
+    justify-content: center;
+  }
+  .header-wrap__logo-item {
+    font-size: 36px;
+  }
+  .features-wrap__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 984px) {
+  .container {
+    width: 280px;
+  }
+  .header-wrap {
+    &::after {
+      display: none;
+    }
+  }
+  .features-wrap__title {
+    font-size: 10px;
+  }
+  .works-wrap {
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+  }
+  .team-wrap {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-wrap_item {
+    width: 280px;
+    margin: 0 15px;
+    object-fit: cover;
+  }
 }

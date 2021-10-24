@@ -9,7 +9,7 @@
   width: 50%;
 }
 .slider__img {
-  height: 490px;
+  max-width: 100%;
 }
 
 .slider__desc {
@@ -19,18 +19,19 @@
   padding: 100px;
   width: 50%;
   background-color: rgba(92, 50, 73, 1);
+
   .slider__text {
     font-family: 'Cardo', sans-serif;
     color: #ffffff;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: italic;
     text-transform: capitalize;
     margin-bottom: 20px;
   }
   .slider__author {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8125rem;
     text-transform: uppercase;
     color: #ffffff;
   }

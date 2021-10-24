@@ -12,14 +12,16 @@
           justify-content: space-between;
 }
 .team-wrap .team-wrap_item {
+  width: 270px;
   margin: 0 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .team-wrap .team-wrap_item .team-wrap__img {
   margin-bottom: 30px;
 }
 .team-wrap .team-wrap_item .team-wrap__img .team-wrap__avatar {
-  width: 270px;
-  height: 270px;
+  width: 100%;
 }
 .team-wrap .team-wrap_item .team-wrap__name {
   font-weight: 700;

@@ -6,12 +6,13 @@
   display: flex;
   justify-content: space-between;
   .team-wrap_item {
+    width: 270px;
     margin: 0 15px;
+    object-fit: cover;
     .team-wrap__img {
       margin-bottom: 30px;
       .team-wrap__avatar {
-        width: 270px;
-        height: 270px;
+        width: 100%;
       }
     }
     .team-wrap__name {

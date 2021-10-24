@@ -1,14 +1,19 @@
 .works {
 }
+.container_works {
+  width: 100vw;
+}
 .works-wrap {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
 }
 .works-wrap__link {
-  width: 25%;
-  height: 340px;
+  max-height: 340px;
   position: relative;
-
   &::after {
     content: '';
     display: block;
