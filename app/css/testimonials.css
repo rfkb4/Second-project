@@ -27,7 +27,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 100px;
+  padding: 50px 100px;
   width: 50%;
   background-color: #5c3249;
 }
