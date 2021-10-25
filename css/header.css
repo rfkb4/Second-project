@@ -47,7 +47,7 @@
 .header-wrap .header-wrap__logo .header-wrap__logo-item {
   color: #656980;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 .header-wrap .header-wrap__logo .header-wrap__logo-item::after {
@@ -100,7 +100,7 @@
   height: 3px;
   background-color: #babbc5;
   position: absolute;
-  top: 67px;
+  top: 61;
   left: 0;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -112,7 +112,7 @@
   height: 3px;
   background-color: #babbc5;
   position: absolute;
-  top: 67px;
+  top: 61;
   left: 0;
 }
 .header-wrap .header-wrap__navigation .header-wrap__navigation-list .header-wrap__item .header-wrap__navigation-link .header-wrap__link-name:active {
